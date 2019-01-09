@@ -47,7 +47,7 @@
                     <br> Tinkune, Kathmandu
                     <br> Nepal
                     <br> 9803961735
-                    <br> sad.ahmed22224@gmail.com
+                    <br> sushan.paudyal@gmail.com
                     <br>
                     <strong>Sushan Paudyal</strong>
                 </p>
