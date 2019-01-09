@@ -2,99 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d169150-f63d-450b-9373-f6e15bcc66e2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/eshop.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Black Blouse Versace Coat1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Black Blouse Versace Coat2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Black Blouse Versace Coat3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Gini-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Gini-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Gini-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Jack---Jones-White-Solid-Denim-Jacket-3115-5549091-1-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Jack---Jones-White-Solid-Denim-Jacket-3115-5549091-2-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Jack---Jones-White-Solid-Denim-Jacket-3115-5549091-3-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Levi-s-Blue-Solid-Denim-Jacket-5953-6506172-1-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Levi-s-Blue-Solid-Denim-Jacket-5953-6506172-2-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Levi-s-Blue-Solid-Denim-Jacket-5953-6506172-3-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Mishmi Navy Blue Medium Satchel Bag 1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Mishmi Navy Blue Medium Satchel Bag 2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Mishmi Navy Blue Medium Satchel Bag 3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Next-Denim-Borg-Lined-Western-Jacket-0463-0064553-1-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Next-Denim-Borg-Lined-Western-Jacket-0463-0064553-2-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/Next-Denim-Borg-Lined-Western-Jacket-0465-0064553-3-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/T-shirt1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/T-shirt2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/T-shirt3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/U-S--Polo-Assn--Blue-Polos-0266-586842-1-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/U-S--Polo-Assn--Blue-Polos-0268-586842-2-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/U-S--Polo-Assn--Blue-Polos-0271-586842-3-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/United-Colors-of-Benetton-White-Polo-Shirt-0608-0914361-1-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/United-Colors-of-Benetton-White-Polo-Shirt-0608-0914361-2-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/United-Colors-of-Benetton-White-Polo-Shirt-0609-0914361-3-pdp_slider_l.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/fur coat with button1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/fur coat with button2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/fur coat with button3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/product.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/product2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/product_images/product3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/slides_images/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/slides_images/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/slides_images/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/slides_images/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin_area/slides_images/slide-5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cart.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/contact.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/confirm.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/customer_images/sushan.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/edit_account.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/font-awesome/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/font-awesome/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/images/logo-small.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/includes/footer.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/includes/sidebar.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/js/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/my_account.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/my_orders.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/pay_offline.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/styles/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer/styles/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/customer_register.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/details.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/logo-small.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/includes/footer.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/includes/sidebar.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/shop.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/styles/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/styles/styles.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -230,22 +138,6 @@
               <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="eshop" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="customer" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="customer" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -291,12 +183,12 @@
       <workItem from="1543470081076" duration="599000" />
       <workItem from="1543522904826" duration="2606000" />
       <workItem from="1543691621092" duration="134000" />
-      <workItem from="1547054386735" duration="3478000" />
+      <workItem from="1547054386735" duration="3772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18556000" />
+    <option name="totallyTimeSpent" value="18850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
