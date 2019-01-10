@@ -1,5 +1,7 @@
 <?php
-  $db = mysqli_connect("localhost", "root", "root", "eshop");
+  $db = mysqli_connect("localhost", "root", "root", "eshop"); ?>
+
+<?php
 
   function getPro(){
       global $db;
@@ -29,3 +31,35 @@
               </div>
           </div>
 <?php } } ?>
+
+
+<?php
+
+function getPCats(){
+   global $db;
+   $get_p_cats = "SELECT * FROM product_categories";
+   $run_p_cats = mysqli_query($db, $get_p_cats);
+   while($row_p_cats = mysqli_fetch_array($run_p_cats)){
+       $p_cat_id = $row_p_cats['p_cat_id'];
+       $p_cat_title = $row_p_cats['p_cat_title'];
+
+?>
+       <li>
+           <a href="shop.php?p_cat=<?php echo $p_cat_id; ?>"><?php echo $p_cat_title; ?></a>
+       </li>
+<?php }  } ?>
+
+
+<?php
+    function getCats(){
+        global $db;
+        $get_cats = "SELECT * FROM categories";
+        $run_cats = mysqli_query($db, $get_cats);
+        while($row_cats = mysqli_fetch_array($run_cats)){
+            $cat_id = $row_cats['cat_id'];
+            $cat_title = $row_cats['cat_title'];
+?>
+            <li>
+                <a href="shop.php?cat=<?php echo $cat_id; ?>"><?php echo $cat_title; ?></a>
+            </li>
+<?php }  } ?>
