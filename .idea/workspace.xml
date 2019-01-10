@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d169150-f63d-450b-9373-f6e15bcc66e2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/Black Blouse Versace Coat1.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/Black Blouse Versace Coat1.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/Black Blouse Versace Coat2.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/Black Blouse Versace Coat2.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/T-shirt1.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/T-shirt1.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/T-shirt2.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/T-shirt2.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/U-S--Polo-Assn--Blue-Polos-0266-586842-1-pdp_slider_l.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/U-S--Polo-Assn--Blue-Polos-0266-586842-1-pdp_slider_l.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/U-S--Polo-Assn--Blue-Polos-0268-586842-2-pdp_slider_l.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/U-S--Polo-Assn--Blue-Polos-0268-586842-2-pdp_slider_l.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/United-Colors-of-Benetton-White-Polo-Shirt-0608-0914361-1-pdp_slider_l.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/United-Colors-of-Benetton-White-Polo-Shirt-0608-0914361-1-pdp_slider_l.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/United-Colors-of-Benetton-White-Polo-Shirt-0608-0914361-2-pdp_slider_l.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/United-Colors-of-Benetton-White-Polo-Shirt-0608-0914361-2-pdp_slider_l.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/fur coat with button1.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/fur coat with button1.jpg" />
-      <change beforePath="$PROJECT_DIR$/admin_area/product_images/fur coat with button2.jpg" afterPath="$PROJECT_DIR$/admin_area/product_images/fur coat with button2.jpg" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,31 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/functions.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="76" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="249">
+              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="35" selection-end-column="21" />
               <folding>
-                <marker date="1547150076104" expanded="true" signature="131:180" ph="SELECT * FRO... products" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="235" selection-end-column="6" />
-              <folding>
-                <marker date="1547150188754" expanded="true" signature="4948:4978" ph="select * fro... slider" />
-                <marker date="1547150188754" expanded="false" signature="5326:5350" ph="..." />
-                <marker date="1547150188754" expanded="true" signature="5351:5468" ph="..." />
-                <marker date="1547150188754" expanded="true" signature="5437:5468" ph="..." />
-                <marker date="1547150188754" expanded="true" signature="5583:5613" ph="select * fro... slider" />
-                <marker date="1547150188754" expanded="true" signature="5954:5978" ph="..." />
-                <marker date="1547150188754" expanded="true" signature="5979:6096" ph="..." />
+                <marker date="1547150478935" expanded="true" signature="937:969" ph="SELECT * FRO... product_categories" />
+                <marker date="1547150478935" expanded="true" signature="1652:1960" ph="..." />
               </folding>
             </state>
           </provider>
@@ -90,11 +62,11 @@
         <option value="$PROJECT_DIR$/customer/my_account.php" />
         <option value="$PROJECT_DIR$/customer/delete_account.php" />
         <option value="$PROJECT_DIR$/customer/includes/footer.php" />
-        <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/includes/db.php" />
         <option value="$PROJECT_DIR$/admin_area/insert_product.php" />
         <option value="$PROJECT_DIR$/functions/functions.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
       </list>
     </option>
   </component>
@@ -132,6 +104,11 @@
             <path>
               <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="eshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -181,12 +158,12 @@
       <workItem from="1547054386735" duration="4913000" />
       <workItem from="1547063964614" duration="2860000" />
       <workItem from="1547137367477" duration="3354000" />
-      <workItem from="1547149470255" duration="717000" />
+      <workItem from="1547149470255" duration="1036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26922000" />
+    <option name="totallyTimeSpent" value="27241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -283,6 +260,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding>
+            <marker date="1547150478935" expanded="true" signature="937:969" ph="SELECT * FRO... product_categories" />
+            <marker date="1547150478935" expanded="true" signature="1652:1960" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -454,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin_area/slides_images/1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -485,6 +459,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="222" column="21" lean-forward="true" selection-start-line="222" selection-start-column="21" selection-end-line="222" selection-end-column="21" />
+          <folding>
+            <marker date="1547150188754" expanded="true" signature="4948:4978" ph="select * fro... slider" />
+            <marker date="1547150188754" expanded="false" signature="5326:5350" ph="..." />
+            <marker date="1547150188754" expanded="true" signature="5351:5468" ph="..." />
+            <marker date="1547150188754" expanded="true" signature="5437:5468" ph="..." />
+            <marker date="1547150188754" expanded="true" signature="5583:5613" ph="select * fro... slider" />
+            <marker date="1547150188754" expanded="true" signature="5954:5978" ph="..." />
+            <marker date="1547150188754" expanded="true" signature="5979:6096" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -495,18 +485,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="235" selection-end-column="6" />
+        <state relative-caret-position="249">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <marker date="1547150188754" expanded="true" signature="4948:4978" ph="select * fro... slider" />
-            <marker date="1547150188754" expanded="false" signature="5326:5350" ph="..." />
-            <marker date="1547150188754" expanded="true" signature="5351:5468" ph="..." />
-            <marker date="1547150188754" expanded="true" signature="5437:5468" ph="..." />
-            <marker date="1547150188754" expanded="true" signature="5583:5613" ph="select * fro... slider" />
-            <marker date="1547150188754" expanded="true" signature="5954:5978" ph="..." />
-            <marker date="1547150188754" expanded="true" signature="5979:6096" ph="..." />
+            <marker date="1547150478935" expanded="true" signature="937:969" ph="SELECT * FRO... product_categories" />
+            <marker date="1547150478935" expanded="true" signature="1652:1960" ph="..." />
           </folding>
         </state>
       </provider>
