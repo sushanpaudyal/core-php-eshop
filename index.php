@@ -1,6 +1,7 @@
 <?php
 session_start();
    include ("includes/db.php");
+   include ("functions/functions.php");
 ?>
 
 <!doctype html>
@@ -230,78 +231,7 @@ session_start();
 
 <div id="content" class="container">
     <div class="row">
-        <div class="col-sm-4 col-sm-6 single">
-            <div class="product">
-                <a href="details.php">
-                    <img src="admin_area/product_images/product.jpg" alt="" class="img-responsive">
-                </a>
-                <div class="text">
-                    <h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
-                    <p class="price">Rs. 500</p>
-                    <p class="buttons">
-                        <a href="details.php" class="btn btn-default">View Details</a>
-                        <a href="details.php" class="btn btn-primary">
-                            <i class="fa fa-shopping-cart"></i> Add to Cart
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-4 col-sm-6 single">
-            <div class="product">
-                <a href="details.php">
-                    <img src="admin_area/product_images/T-shirt1.jpg" alt="" class="img-responsive">
-                </a>
-                <div class="text">
-                    <h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
-                    <p class="price">Rs. 500</p>
-                    <p class="buttons">
-                        <a href="details.php" class="btn btn-default">View Details</a>
-                        <a href="details.php" class="btn btn-primary">
-                            <i class="fa fa-shopping-cart"></i> Add to Cart
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="col-sm-4 col-sm-6 single">
-            <div class="product">
-                <a href="details.php">
-                    <img src="admin_area/product_images/Next-Denim-Borg-Lined-Western-Jacket-0463-0064553-1-pdp_slider_l.jpg" alt="" class="img-responsive">
-                </a>
-                <div class="text">
-                    <h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
-                    <p class="price">Rs. 500</p>
-                    <p class="buttons">
-                        <a href="details.php" class="btn btn-default">View Details</a>
-                        <a href="details.php" class="btn btn-primary">
-                            <i class="fa fa-shopping-cart"></i> Add to Cart
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-4 col-sm-6 single">
-            <div class="product">
-                <a href="details.php">
-                    <img src="admin_area/product_images/Next-Denim-Borg-Lined-Western-Jacket-0463-0064553-1-pdp_slider_l.jpg" alt="" class="img-responsive">
-                </a>
-                <div class="text">
-                    <h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
-                    <p class="price">Rs. 500</p>
-                    <p class="buttons">
-                        <a href="details.php" class="btn btn-default">View Details</a>
-                        <a href="details.php" class="btn btn-primary">
-                            <i class="fa fa-shopping-cart"></i> Add to Cart
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
+        <?php getPro(); ?>
     </div>
 </div>
 
