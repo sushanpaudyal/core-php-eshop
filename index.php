@@ -127,40 +127,39 @@ session_start();
             <div class="carousel-inner">
 
                 <?php
-
                 $get_slides = "select * from slider LIMIT 0,1";
+                $run_slides = mysqli_query($con, $get_slides);
 
-                $run_slides = mysqli_query($link,$get_slides);
+                while($row_slides = mysqli_fetch_assoc($run_slides)){
 
-                while($row_slides=mysqli_fetch_array($run_slides)){
-
-                    $slide_name = $row_slides['slide_name'];
-                    $slide_image = $row_slides['slide_image'];
-
+                    $slider_name = $row_slides['slider_name'];
+                    $slider_image = $row_slides['slider_image'];
                     echo "
-
-<div class='item active'>
-
-<img src='admin_area/slides_images/$slide_image'>
-
-</div>
-
-";
+                       <div class='item active' style='height: 70vh !important;'>
+                       <img src='admin_area/slides_images/$slider_image' width='100%'>
+                       </div>
+                    ";
                 }
+                ?>
+                <?php
+                $get_slides = "select * from slider LIMIT 1,3";
+                $run_slides = mysqli_query($con, $get_slides);
 
+                while($row_slides = mysqli_fetch_assoc($run_slides)){
+
+                    $slider_name = $row_slides['slider_name'];
+                    $slider_image = $row_slides['slider_image'];
+                    echo "
+                       <div class='item' style='height: 70vh !important;'>
+                       <img src='admin_area/slides_images/$slider_image' width='100%'>
+                       </div>
+                    ";
+                }
                 ?>
 
 
 
-                <div class="item">
-                    <img src="admin_area/slides_images/2.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="admin_area/slides_images/3.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="admin_area/slides_images/4.jpg" alt="">
-                </div>
+
             </div>
             <a href="#myCarousel" class="left carousel-control" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
