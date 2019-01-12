@@ -2,6 +2,30 @@
 include ("includes/db.php");
 include ("functions/functions.php");
 ?>
+
+
+<?php
+  if(isset($_GET['pro_id'])){
+       $product_id = $_GET['pro_id'];
+       $get_product = "SELECT * FROM products WHERE product_id = '$product_id'";
+       $run_product = mysqli_query($con, $get_product);
+       $row_product = mysqli_fetch_array($run_product);
+
+       $p_cat_id = $row_product['p_cat_id'];
+       $pro_title = $row_product['product_title'];
+      $pro_price = $row_product['product_price'];
+      $pro_desc = $row_product['product_desc'];
+      $pro_img1 = $row_product['product_img1'];
+      $pro_img2 = $row_product['product_img2'];
+      $pro_img3 = $row_product['product_img3'];
+      $get_p_cat = "SELECT * FROM product_categories WHERE p_cat_id = '$p_cat_id'";
+      $run_p_cat = mysqli_query($con, $get_p_cat);
+      $row_p_cat = mysqli_fetch_array($run_p_cat);
+      $p_cat_title = $row_p_cat['p_cat_title'];
+  }
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -120,6 +144,8 @@ include ("functions/functions.php");
             <ul class="breadcrumb">
                 <li><a href="index.php">Home</a></li>
                 <li><a>Shop</a></li>
+                <li><a href="shop.php?p_cat=<?php echo $p_cat_id; ?>"><?php echo $p_cat_title; ?></a></li>
+                <li><?php echo $pro_title; ?></li>
             </ul>
         </div>
 
@@ -142,17 +168,17 @@ include ("functions/functions.php");
                            <div class="carousel-inner">
                                <div class="item active">
                                    <center>
-                                       <img src="admin_area/product_images/product.jpg" alt="" class="img-responsive">
+                                       <img src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="" class="img-responsive">
                                    </center>
                                </div>
                                <div class="item">
                                    <center>
-                                       <img src="admin_area/product_images/product2.jpg" alt="" class="img-responsive">
+                                       <img src="admin_area/product_images/<?php echo $pro_img2; ?>" alt="" class="img-responsive">
                                    </center>
                                </div>
                                <div class="item">
                                    <center>
-                                       <img src="admin_area/product_images/product3.jpg" alt="" class="img-responsive">
+                                       <img src="admin_area/product_images/<?php echo $pro_img3; ?>" alt="" class="img-responsive">
                                    </center>
                                </div>
                            </div>
@@ -171,8 +197,8 @@ include ("functions/functions.php");
 
                <div class="col-sm-6">
                    <div class="box">
-                       <h1 class="text-center">Marvel Black Kids Polo T-Shirt</h1>
-                       <form action="details.php" method="post" class="form-horizontal">
+                       <h1 class="text-center"><?php echo $pro_title; ?></h1>
+                       <form action="index.php?add_cart=<?php echo $product_id; ?>" method="post" class="form-horizontal">
                            <div class="form-group">
                                <label for="" class="col-md-5 control-label">Product Quantity</label>
                                 <div class="col-md-7">
@@ -199,7 +225,7 @@ include ("functions/functions.php");
                            </div>
 
                            <p class="price">
-                               Rs. 500
+                               Rs. <?php echo $pro_price; ?>
                            </p>
                            <p class="text-center buttons">
                                <button class="btn btn-primary" type="submit">
@@ -212,17 +238,17 @@ include ("functions/functions.php");
                    <div class="row" id="thumbs">
                        <div class="col-xs-4">
                            <a href="#" class="thumb">
-                               <img src="admin_area/product_images/product.jpg" alt="" class="img-responsive">
+                               <img src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="" class="img-responsive">
                            </a>
                        </div>
                        <div class="col-xs-4">
                            <a href="#" class="thumb">
-                               <img src="admin_area/product_images/product2.jpg" alt="" class="img-responsive">
+                               <img src="admin_area/product_images/<?php echo $pro_img2; ?>" alt="" class="img-responsive">
                            </a>
                        </div>
                        <div class="col-xs-4">
                            <a href="#" class="thumb">
-                               <img src="admin_area/product_images/product3.jpg" alt="" class="img-responsive">
+                               <img src="admin_area/product_images/<?php echo $pro_img3; ?>" alt="" class="img-responsive">
                            </a>
                        </div>
                    </div>
