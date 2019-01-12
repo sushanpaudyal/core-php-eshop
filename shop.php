@@ -208,6 +208,7 @@ include ("functions/functions.php");
 
                 <?php
                     getpcatpro();
+                    getcatpro();
                 ?>
         </div>
 
