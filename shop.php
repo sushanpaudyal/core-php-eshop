@@ -205,6 +205,10 @@ include ("functions/functions.php");
                     }    }  ?>
                 </ul>
             </center>
+
+                <?php
+                    getpcatpro();
+                ?>
         </div>
 
     </div>
