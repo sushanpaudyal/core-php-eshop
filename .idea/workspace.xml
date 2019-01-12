@@ -17,17 +17,17 @@
       <file leaf-file-name="shop.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="147" column="37" lean-forward="false" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
+            <state relative-caret-position="420">
+              <caret line="204" column="30" lean-forward="true" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
               <folding>
-                <marker date="1547321927029" expanded="true" signature="6019:6057" ph="SELECT * FRO... products" />
-                <marker date="1547321927029" expanded="true" signature="6019:6063" ph="SELECT * FRO... products" />
-                <marker date="1547321927029" expanded="true" signature="6019:6064" ph="SELECT * FRO... products" />
-                <marker date="1547321927029" expanded="true" signature="6019:6075" ph="SELECT * FRO... products" />
-                <marker date="1547321927029" expanded="true" signature="6019:6077" ph="SELECT * FRO... products" />
-                <marker date="1547321927029" expanded="true" signature="6019:6078" ph="SELECT * FRO... products" />
-                <marker date="1547321927029" expanded="true" signature="6936:6977" ph="..." />
-                <marker date="1547321927029" expanded="true" signature="7854:7876" ph="SELECT * FRO... products" />
+                <marker date="1547322210408" expanded="true" signature="5959:5997" ph="SELECT * FRO... products" />
+                <marker date="1547322210408" expanded="true" signature="5959:6003" ph="SELECT * FRO... products" />
+                <marker date="1547322210408" expanded="true" signature="5959:6004" ph="SELECT * FRO... products" />
+                <marker date="1547322210408" expanded="true" signature="5959:6015" ph="SELECT * FRO... products" />
+                <marker date="1547322210408" expanded="true" signature="5959:6017" ph="SELECT * FRO... products" />
+                <marker date="1547322210408" expanded="true" signature="5959:6018" ph="SELECT * FRO... products" />
+                <marker date="1547322210408" expanded="true" signature="6891:6936" ph="..." />
+                <marker date="1547322210408" expanded="true" signature="7889:7911" ph="SELECT * FRO... products" />
               </folding>
             </state>
           </provider>
@@ -175,12 +175,12 @@
       <workItem from="1547149470255" duration="2482000" />
       <workItem from="1547184859334" duration="122000" />
       <workItem from="1547212765945" duration="131000" />
-      <workItem from="1547320358449" duration="1460000" />
+      <workItem from="1547320358449" duration="1762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30400000" />
+    <option name="totallyTimeSpent" value="30702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -194,7 +194,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3913669" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39056832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -526,17 +526,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="147" column="37" lean-forward="false" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
+        <state relative-caret-position="420">
+          <caret line="204" column="30" lean-forward="true" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
           <folding>
-            <marker date="1547321927029" expanded="true" signature="6019:6057" ph="SELECT * FRO... products" />
-            <marker date="1547321927029" expanded="true" signature="6019:6063" ph="SELECT * FRO... products" />
-            <marker date="1547321927029" expanded="true" signature="6019:6064" ph="SELECT * FRO... products" />
-            <marker date="1547321927029" expanded="true" signature="6019:6075" ph="SELECT * FRO... products" />
-            <marker date="1547321927029" expanded="true" signature="6019:6077" ph="SELECT * FRO... products" />
-            <marker date="1547321927029" expanded="true" signature="6019:6078" ph="SELECT * FRO... products" />
-            <marker date="1547321927029" expanded="true" signature="6936:6977" ph="..." />
-            <marker date="1547321927029" expanded="true" signature="7854:7876" ph="SELECT * FRO... products" />
+            <marker date="1547322210408" expanded="true" signature="5959:5997" ph="SELECT * FRO... products" />
+            <marker date="1547322210408" expanded="true" signature="5959:6003" ph="SELECT * FRO... products" />
+            <marker date="1547322210408" expanded="true" signature="5959:6004" ph="SELECT * FRO... products" />
+            <marker date="1547322210408" expanded="true" signature="5959:6015" ph="SELECT * FRO... products" />
+            <marker date="1547322210408" expanded="true" signature="5959:6017" ph="SELECT * FRO... products" />
+            <marker date="1547322210408" expanded="true" signature="5959:6018" ph="SELECT * FRO... products" />
+            <marker date="1547322210408" expanded="true" signature="6891:6936" ph="..." />
+            <marker date="1547322210408" expanded="true" signature="7889:7911" ph="SELECT * FRO... products" />
           </folding>
         </state>
       </provider>
