@@ -50,7 +50,7 @@ include ("functions/functions.php");
                 Welcome : Guest
             </a>
             <a href="#">
-                Shopping Cart Total Price: $100 , Total Items 2
+                Shopping Cart Total Price: $100 , Total Items <?php items(); ?>
             </a>
         </div>
         <div class="col-md-6">
@@ -112,7 +112,7 @@ include ("functions/functions.php");
             </div>
             <a href="cart.php" class="btn btn-primary navbar-btn right">
                 <i class="fa fa-shopping-cart"></i>
-                <span>4 Items in Cart</span>
+                <span><?php items(); ?>  Items in Cart</span>
             </a>
             <div class="navbar-collapse collapse right">
                 <button class="btn navbar-btn btn-primary" type="button" data-toggle="collapse" data-target="#search">
@@ -199,17 +199,17 @@ include ("functions/functions.php");
                    <div class="box">
                        <h1 class="text-center"><?php echo $pro_title; ?></h1>
                        <?php add_cart(); ?>
-                       <form action="index.php?add_cart=<?php echo $product_id; ?>" method="post" class="form-horizontal">
+                       <form action="details.php?add_cart=<?php echo $product_id; ?>" method="post" class="form-horizontal">
                            <div class="form-group">
                                <label for="" class="col-md-5 control-label">Product Quantity</label>
                                 <div class="col-md-7">
                                     <select name="product_qty" class="form-control">
                                         <option value="">Select a Quantity</option>
-                                        <option value="">1</option>
-                                        <option value="">2</option>
-                                        <option value="">3</option>
-                                        <option value="">4</option>
-                                        <option value="">5</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
                                     </select>
                                 </div>
                            </div>
@@ -219,9 +219,9 @@ include ("functions/functions.php");
                                <div class="col-md-7">
                                    <select name="product_size" class="form-control">
                                        <option value="">Select a Size</option>
-                                       <option value="">Small</option>
-                                       <option value="">Medium</option>
-                                       <option value="">Large</option>
+                                       <option value="small">Small</option>
+                                       <option value="medium">Medium</option>
+                                       <option value="large">Large</option>
                                    </select>
                                </div>
                            </div>

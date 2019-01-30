@@ -26,8 +26,9 @@
      <a href="#" class="btn btn-success btn-sm">
          Welcome : Guest
      </a>
+
      <a href="#">
-         Shopping Cart Total Price: $100 , Total Items 2
+         Shopping Cart Total Price: $100 , Total Items <?php items(); ?>
      </a>
  </div>
     <div class="col-md-6">
@@ -89,7 +90,7 @@
             </div>
             <a href="cart.php" class="btn btn-primary navbar-btn right">
                 <i class="fa fa-shopping-cart"></i>
-                <span>4 Items in Cart</span>
+                <span><?php items(); ?> Items in Cart</span>
             </a>
             <div class="navbar-collapse collapse right">
                 <button class="btn navbar-btn btn-primary" type="button" data-toggle="collapse" data-target="#search">
