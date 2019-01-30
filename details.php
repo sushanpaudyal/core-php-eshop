@@ -198,11 +198,13 @@ include ("functions/functions.php");
                <div class="col-sm-6">
                    <div class="box">
                        <h1 class="text-center"><?php echo $pro_title; ?></h1>
+                       <?php add_cart(); ?>
                        <form action="index.php?add_cart=<?php echo $product_id; ?>" method="post" class="form-horizontal">
                            <div class="form-group">
                                <label for="" class="col-md-5 control-label">Product Quantity</label>
                                 <div class="col-md-7">
                                     <select name="product_qty" class="form-control">
+                                        <option value="">Select a Quantity</option>
                                         <option value="">1</option>
                                         <option value="">2</option>
                                         <option value="">3</option>
@@ -304,9 +306,7 @@ include ("functions/functions.php");
                            <p class="price">Rs. <?php echo $pro_price; ?></p>
                            <p class="buttons">
                                <a href="details.php?pro_id=<?php echo $pro_id; ?>" class="btn btn-default">View Details</a>
-                               <a href="details.php" class="btn btn-primary">
-                                   <i class="fa fa-shopping-cart"></i> Add to Cart
-                               </a>
+
                            </p>
                        </div>
                    </div>

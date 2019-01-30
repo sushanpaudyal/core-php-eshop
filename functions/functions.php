@@ -1,5 +1,32 @@
 <?php
-  $db = mysqli_connect("localhost", "root", "root", "eshop"); ?>
+  $db = mysqli_connect("localhost", "root", "root", "eshop");
+
+
+//  Getting IP Address
+function getRealUserIp(){
+    switch(true){
+        case (!empty($_SERVER['HTTP_X_REAL_IP'])) : return $_SERVER['HTTP_X_REAL_IP'];
+        case (!empty($_SERVER['HTTP_CLIENT_IP'])) : return $_SERVER['HTTP_CLIENT_IP'];
+        case (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) : return $_SERVER['HTTP_X_FORWARDED_FOR'];
+        default : return $_SERVER['REMOTE_ADDR'];
+    }
+}
+
+
+//Add Cart Functionality
+function add_cart(){
+ global $db;
+ if(isset($_GET['add_cart'])){
+     $ip_add = getRealUserIp();
+     $p_id = $_GET['add_cart'];
+     $product_qty = $_POST['product_qty'];
+     $product_size = $_POST['product_size'];
+ }
+}
+
+
+
+  ?>
 
 <?php
 
