@@ -261,7 +261,7 @@ include ("functions/functions.php");
                <p>
                    <h4>Product Details</h4>
                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aperiam, assumenda consequatur deserunt earum magni minima mollitia nesciunt odio officiis pariatur quidem repudiandae voluptate voluptatem? Error in quibusdam vel. Corporis dolores esse iste maiores odit saepe vero voluptates. Architecto atque beatae blanditiis consequatur eos eveniet fugiat illo in, iste itaque laudantium, modi molestias natus nesciunt nobis officiis optio quae quisquam repudiandae saepe, sit totam ullam!
+                      <?php echo $pro_desc; ?>
                   </p>
                <h4>Size</h4>
                <ul>
@@ -282,16 +282,28 @@ include ("functions/functions.php");
                        </h3>
                    </div>
                </div>
+
+               <?php
+                  $get_products = "SELECT * FROM products ORDER  BY rand() LIMIT 0, 3";
+                  $run_products = mysqli_query($con, $get_products);
+                  while($row_products = mysqli_fetch_array($run_products)){
+                      $pro_id = $row_products['product_id'];
+                      $pro_title = $row_products['product_title'];
+                      $pro_price = $row_products['product_price'];
+                      $pro_img1 = $row_products['product_img1'];
+               ?>
+
+
                <div class="center-responsive col-md-3 col-sm-6">
                    <div class="product same-height">
-                       <a href="details.php">
-                           <img src="admin_area/product_images/fur%20coat%20with%20button1.jpg" alt="" class="img-responsive">
+                       <a href="details.php?pro_id=<?php echo $pro_id; ?>">
+                           <img src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="" class="img-responsive">
                        </a>
                        <div class="text">
-                           <h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
-                           <p class="price">Rs. 500</p>
+                           <h3><a href="details.php"><?php echo $pro_title; ?></a></h3>
+                           <p class="price">Rs. <?php echo $pro_price; ?></p>
                            <p class="buttons">
-                               <a href="details.php" class="btn btn-default">View Details</a>
+                               <a href="details.php?pro_id=<?php echo $pro_id; ?>" class="btn btn-default">View Details</a>
                                <a href="details.php" class="btn btn-primary">
                                    <i class="fa fa-shopping-cart"></i> Add to Cart
                                </a>
@@ -299,40 +311,8 @@ include ("functions/functions.php");
                        </div>
                    </div>
                </div>
-               <div class="center-responsive col-md-3 col-sm-6">
-                   <div class="product same-height">
-                       <a href="details.php">
-                           <img src="admin_area/product_images/fur%20coat%20with%20button1.jpg" alt="" class="img-responsive">
-                       </a>
-                       <div class="text">
-                           <h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
-                           <p class="price">Rs. 500</p>
-                           <p class="buttons">
-                               <a href="details.php" class="btn btn-default">View Details</a>
-                               <a href="details.php" class="btn btn-primary">
-                                   <i class="fa fa-shopping-cart"></i> Add to Cart
-                               </a>
-                           </p>
-                       </div>
-                   </div>
-               </div>
-               <div class="center-responsive col-md-3 col-sm-6">
-                   <div class="product same-height">
-                       <a href="details.php">
-                           <img src="admin_area/product_images/fur%20coat%20with%20button1.jpg" alt="" class="img-responsive">
-                       </a>
-                       <div class="text">
-                           <h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
-                           <p class="price">Rs. 500</p>
-                           <p class="buttons">
-                               <a href="details.php" class="btn btn-default">View Details</a>
-                               <a href="details.php" class="btn btn-primary">
-                                   <i class="fa fa-shopping-cart"></i> Add to Cart
-                               </a>
-                           </p>
-                       </div>
-                   </div>
-               </div>
+
+               <?php } ?>
            </div>
 
 
